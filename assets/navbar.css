@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: wheat;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:wheat;
+}
+nav{
+    background: #1b1b1b;
+}
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav .logo{
+    float: left;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 20px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    position:relative;
+}
+nav ul .run{
+    background-color: rgba(106, 238, 106, 0.5);
+    border-radius: 15px;
+}
+nav ul .clear{
+    background-color: rgba(212, 36, 36, 0.76);
+    border-radius: 15px;
+}
+nav ul .button:hover{
+    border-radius: 15px;
+    box-shadow: 0 0 10px white,
+    0 0 10px white;
+}
+nav ul li{
+    float: left;
+    background: #1b1b1b;
+    margin: 0 10px;
+}
+ul li input{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #3f3e3e;
+    width: 40px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 10px; 
+}
+nav ul li .projective{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 0px; 
+}
+nav ul li select{
+    color: white;
+    background-color: #1b1b1b;
+    line-height: 70px;
+    font-size: 18px;
+}
+

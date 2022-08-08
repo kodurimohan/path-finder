@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Path Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/navbar.css">
+    <link rel="stylesheet" href="assets/grid.css">
+</head>
+<body>
+    
+    <!--NAVBAR-->
+    <nav id="navbar">
+        <div class="logo">Pathfinder</div>
+        <ul>
+            <li>
+                <a href="#" class="projective">Size:</a>
+                <input type="text" id="width">
+                <input type="text" id="heigth">       
+            </li>
+            <li>
+                <a href="#" class="projective">Randomizer:</a>
+
+                <select name="randomicers" id="randomizerAlgorithim">
+                    <option value="0">Depth-first</option>
+                    <option value="1">Prim</option>
+                    <option value="2">Kruskal</option>
+                </select>
+            </li>
+            <li>
+                <a href="#" class="projective">Speed:</a>
+
+                <select name="randomizerspeed" id="randomizerspeed">
+                    <option value="0">Instant</option>
+                    <option value="1">Quick</option>
+                    <option value="2">Average</option>
+                    <option value="3">Slow</option>
+                </select>
+            </li>
+            <li>
+                <a href="#" class="projective">Wallsbreaker:</a>
+
+                <select id="breakwalls">
+                    <option value="0">None</option>
+                    <option value="1">Few</option>
+                    <option value="2">Some</option>
+                    <option value="3">Many</option>
+                </select>
+            </li>
+            <li>
+                <a href="#" class="run button" id="mazerun">Generate maze</a>
+            </li>
+            <li>
+                <a href="#" class="projective">Pathfinder:</a>
+               
+                <select name="pathfinders" id="pathfinders">
+                <option value="0">DFS</option>
+                <option value="1">BFS</option>
+                <option value="2">A*</option>
+                </select>
+            </li>
+            <li>
+                <a href="#" class="projective">Speed:</a>
+
+                <select name="solvespeed" id="solvespeed">
+                    <option value="0">Instant</option>
+                    <option value="1">Quick</option>
+                    <option value="2">Average</option>
+                    <option value="3">Slow</option>
+                </select>
+            </li>
+            <li>
+                <a href="#" class="run button" id="pathrun">Solve maze</a>
+                <a href="#" class="clear button" id="clear">Remove Path</a>
+            </li> 
+        </ul>
+    </nav>
+
+    <!--GRID-->
+    <table id="grid"></table>
+
+    <script type="module" src="index.js"></script>   
+</body>
+</html>
